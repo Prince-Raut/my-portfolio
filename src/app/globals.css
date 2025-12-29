@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    @apply antialiased selection:bg-cyan-500/30 selection:text-cyan-200;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-neutral-900/50 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-white to-neutral-400;
+  }
+
+  .accent-glow {
+    @apply absolute -z-10 blur-3xl opacity-20;
+  }
+}
