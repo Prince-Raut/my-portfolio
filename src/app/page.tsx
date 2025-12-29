@@ -11,20 +11,21 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#0a0a0a] text-white overflow-x-hidden">
 
       {/* Navbar/Header Area - Positioned absolutely for flow */}
-      <nav className="absolute top-0 w-full z-20 flex justify-end p-6">
-        <div className="flex items-center gap-3">
-          <Link href="/contact" className="flex items-center gap-2 text-sm font-semibold text-neutral-400 hover:text-white transition-colors px-4 py-2 hover:bg-white/5 rounded-lg">
+      <nav className="absolute top-0 w-full z-20 flex justify-end p-4 md:p-6">
+        <div className="flex items-center gap-2 md:gap-3">
+          <Link href="/contact" className="flex items-center gap-1 md:gap-2 text-xs md:text-sm font-semibold text-neutral-400 hover:text-white transition-colors px-2 md:px-4 py-1.5 md:py-2 hover:bg-white/5 rounded-lg">
             Contact
           </Link>
-          <Link href="/resume" className="flex items-center gap-2 text-sm font-semibold text-neutral-400 hover:text-white transition-colors px-4 py-2 hover:bg-white/5 rounded-lg">
-            <FileText className="w-4 h-4" />
-            View Full CV
+          <Link href="/resume" className="flex items-center gap-1 md:gap-2 text-xs md:text-sm font-semibold text-neutral-400 hover:text-white transition-colors px-2 md:px-4 py-1.5 md:py-2 hover:bg-white/5 rounded-lg">
+            <FileText className="w-3 h-3 md:w-4 md:h-4" />
+            <span className="hidden sm:inline">View Full CV</span>
+            <span className="sm:hidden">CV</span>
           </Link>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex flex-col md:flex-row items-center justify-center p-6 overflow-hidden max-w-7xl mx-auto gap-12">
+      <section className="relative min-h-screen flex flex-col md:flex-row items-center justify-center p-6 pt-24 md:pt-6 overflow-hidden max-w-7xl mx-auto gap-12">
         {/* Background Elements */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
           <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-cyan-900/10 rounded-full blur-[100px]" />
