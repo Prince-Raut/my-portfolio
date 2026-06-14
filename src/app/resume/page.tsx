@@ -66,20 +66,6 @@ export default function ResumePage() {
                             <div className="space-y-8">
                                 <div>
                                     <div className="flex justify-between items-baseline mb-2">
-                                        <h3 className="font-bold text-white print:text-black text-lg">Power Platform Developer</h3>
-                                        <span className="font-mono text-sm text-neutral-500">(2 Years)</span>
-                                    </div>
-                                    <p className="text-cyan-400 print:text-cyan-700 text-sm mb-2">Godawari Village Resort (GVR)</p>
-                                    <ul className="list-disc list-outside ml-4 space-y-1 text-neutral-300 print:text-neutral-700 marker:text-cyan-500">
-                                        <li>Built and deployed PowerApps for operations, inventory, and approvals</li>
-                                        <li>Automated workflows using Power Automate (notifications, follow-ups)</li>
-                                        <li>Managed data using SharePoint Lists & Libraries</li>
-                                        <li>Delivered stable apps used daily by staff and management</li>
-                                    </ul>
-                                </div>
-
-                                <div>
-                                    <div className="flex justify-between items-baseline mb-2">
                                         <h3 className="font-bold text-white print:text-black text-lg">PowerApps & Inventory Management Assistant</h3>
                                         <span className="font-mono text-sm text-neutral-500">(1 Year)</span>
                                     </div>
@@ -102,6 +88,21 @@ export default function ResumePage() {
                                         <li>Supported daily operations, reporting, and documentation</li>
                                         <li>Improved internal tracking and coordination</li>
                                         <li>Provided IT and system support</li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between items-baseline mb-2">
+                                        <h3 className="font-bold text-white print:text-black text-lg">Marketing Head</h3>
+                                        <span className="font-mono text-sm text-neutral-500">June 2026 – Present</span>
+                                    </div>
+                                    <p className="text-cyan-400 print:text-cyan-700 text-sm mb-2">Ascendia IT &amp; Digital Solutions | Kathmandu, Nepal</p>
+                                    <ul className="list-disc list-outside ml-4 space-y-1 text-neutral-300 print:text-neutral-700 marker:text-cyan-500">
+                                        <li>Prospect and contact potential customers (stores, restaurants) for digital solutions</li>
+                                        <li>Conduct on-site visits to assess customer business operations and requirements</li>
+                                        <li>Convert customer needs into technical requirements for developers</li>
+                                        <li>Define project scope and features based on direct customer feedback</li>
+                                        <li>Lead digital marketing strategy including SEO, brand strategy, and campaign management</li>
                                     </ul>
                                 </div>
                             </div>
@@ -166,10 +167,6 @@ export default function ResumePage() {
                                 Certifications
                             </h2>
                             <div className="space-y-4">
-                                <div>
-                                    <h3 className="font-semibold text-white print:text-black text-sm">PowerApps Developer</h3>
-                                    <p className="text-xs text-neutral-400 print:text-neutral-600 mb-1">GVR</p>
-                                </div>
                                 <div>
                                     <h3 className="font-semibold text-white print:text-black text-sm">PowerApps & Inventory Management</h3>
                                     <p className="text-xs text-neutral-400 print:text-neutral-600 mb-1">Sterlingwells</p>
