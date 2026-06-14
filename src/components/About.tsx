@@ -51,7 +51,7 @@ export default function About() {
                         className="space-y-4 text-neutral-300 leading-relaxed text-lg"
                     >
                         <p>
-                            <strong className="text-white font-medium">Power Platform Developer with 3+ years of experience.</strong>
+                            <strong className="text-white font-medium">Power Platform Developer.</strong>
                         </p>
                         <p>
                             With a strong background in Information Management and hands-on experience in IT support, I specialize in building production-ready PowerApps and automating workflows. I prioritize
@@ -60,7 +60,7 @@ export default function About() {
                             <span className="text-purple-400"> user adoption</span>.
                         </p>
                         <p>
-                            Whether it's creating a custom inventory system for a hotel or streamlining operations with Power Automate, my goal is always the same: <strong>Build stable systems that save time and reduce errors.</strong>
+                            Whether it's creating a custom inventory system or streamlining operations with Power Automate, my goal is always the same: <strong>Build stable systems that save time and reduce errors.</strong>
                         </p>
                     </motion.div>
                 </div>
