@@ -24,6 +24,18 @@ const experience = [
             "Provided IT and system support.",
         ],
     },
+    {
+        role: "Marketing Head",
+        company: "Ascendia IT & Digital Solutions",
+        duration: "June 2026 – Present",
+        description: [
+            "Spearheading digital marketing strategies, SEO, and brand campaigns.",
+            "Prospecting and driving B2B client acquisition for custom digital solutions.",
+            "Performing on-site operational assessments to identify client requirements.",
+            "Bridging the gap between clients and developers by translating business needs into technical scopes.",
+            "Defining project features and roadmaps based on direct market feedback.",
+        ],
+    },
 ];
 
 export default function Experience() {
