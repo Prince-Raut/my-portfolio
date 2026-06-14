@@ -4,17 +4,6 @@ import { motion } from "framer-motion";
 
 const experience = [
     {
-        role: "Power Platform Developer",
-        company: "Godawari Village Resort (GVR)",
-        duration: "2 Years",
-        description: [
-            "Built and deployed PowerApps for operations, inventory, and approvals.",
-            "Automated workflows using Power Automate (notifications, follow-ups).",
-            "Managed data using SharePoint Lists & Libraries.",
-            "Delivered stable apps used daily by staff and management.",
-        ],
-    },
-    {
         role: "PowerApps & Inventory Management Assistant",
         company: "Sterlingwells Services Pvt. Ltd.",
         duration: "1 Year",
